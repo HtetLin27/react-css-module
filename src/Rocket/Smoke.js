@@ -1,8 +1,11 @@
 import React from 'react'
+import  styles from './Smoke.module.css'
 
 const Smoke = () => {
   return (
-    <div>Smoke</div>
+    <div className={styles.smoke}>
+      <video className={styles.video} autoPlay loop src="/smoke.mov"></video>
+    </div>
   )
 }
 
